@@ -1,0 +1,102 @@
+[
+    {
+        "type": "Group",
+        "name": "고객상담",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "zxsIQcZ3nSV0bmC9"
+    },
+    {
+        "type": "Group",
+        "name": "라우터",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "htQ2Ip50wBcydK49"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\resources\\views\\admin\\custom\\list.blade.php",
+        "parent_id": "zxsIQcZ3nSV0bmC9",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\resources\\views\\admin\\custom\\list.blade.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "MnAG3rUCgR6kVZNh"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\app\\Models\\CustomQuestion.php",
+        "parent_id": "zxsIQcZ3nSV0bmC9",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\app\\Models\\CustomQuestion.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "YCEjKRL9Ne7XmHnA"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\routes\\admin.php",
+        "parent_id": "htQ2Ip50wBcydK49",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\routes\\admin.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "Zboq8yMPd04VIO7g"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\routes\\api.php",
+        "parent_id": "htQ2Ip50wBcydK49",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\routes\\api.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "IP4Skaf87qhTAnbc"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\routes\\web.php",
+        "parent_id": "htQ2Ip50wBcydK49",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\routes\\web.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "AVbJSNdhYDn0qrF5"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\resources\\views\\admin\\custom\\detail.blade.php",
+        "parent_id": "zxsIQcZ3nSV0bmC9",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\resources\\views\\admin\\custom\\detail.blade.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "oEbx3HdXK0wr196M"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\app\\Http\\Controllers\\CustomReplyController.php",
+        "parent_id": "zxsIQcZ3nSV0bmC9",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\app\\Http\\Controllers\\CustomReplyController.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "JPSWMjfKhI4eB31p"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\app\\Http\\Controllers\\CustomQuestionController.php",
+        "parent_id": "zxsIQcZ3nSV0bmC9",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\app\\Http\\Controllers\\CustomQuestionController.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "FygwPrLqOVpljasQ"
+    },
+    {
+        "type": "File",
+        "name": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\resources\\views\\main\\ko\\csr\\cr_01_08_03.blade.php",
+        "parent_id": "zxsIQcZ3nSV0bmC9",
+        "fsPath": "m:\\pwrlove\\work\\sdk\\laragon\\www\\ssgenc\\resources\\views\\main\\ko\\csr\\cr_01_08_03.blade.php",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "OTGXUMprCuBVtlhe"
+    }
+]
+ "label": "상담결과조회"
+    }
+]
