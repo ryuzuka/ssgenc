@@ -402,6 +402,17 @@
                   </div>
                 </dd>
               </dl>
+              <dl class="password">
+                <dt>
+                  <label for="otp">Token Code<span>*</span></label>
+                </dt>
+                <dd>
+                  <div class="input-box">
+                    <input id="otp" type="text" placeholder="Enter below text" maxlength="6">
+                    {{$token}}
+                  </div>
+                </dd>
+              </dl>
               <dl>
                 <dt>Attachment</dt>
                 <dd>
@@ -740,7 +751,8 @@
           contract_amt: contract_amt,
           household: household,
           password: com_utils.SHA256(password),
-          lang: 'en'
+          lang: 'en',
+          otp: $("#otp").val()
         };
 
         return item;

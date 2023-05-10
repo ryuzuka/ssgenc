@@ -404,6 +404,17 @@
                   </div>
                 </dd>
               </dl>
+              <dl class="password">
+                <dt>
+                  <label for="otp">토큰코드<span>*</span></label>
+                </dt>
+                <dd>
+                  <div class="input-box">
+                    <input id="otp" type="text" placeholder="아래 문자 입력" maxlength="6">
+                    {{$token}}
+                  </div>
+                </dd>
+              </dl>
               <dl>
                 <dt>파일첨부</dt>
                 <dd>
@@ -604,40 +615,30 @@
       }
 
       //--------------------------------------------
-      function response(res)
-      {
-          if (res != null)
-          {
-              if (res.code == '0000')
-              {
-                Vue.alert(res.message).then((val)=>{
-                  if (val == true)
-                  {
-                    var params = {
-                      type: '01', //고객상담
-                      gubun: gubun,
-                      receipt_id: res.data.receipt_id
-                    }
-
-                    send_mail(getUrl('sendmail-regist'), params);
-                  }
-                });
-              }
-              else
-              {
-                var code = res.code;
-                var message = res.message;
-                if ( !com_utils.isEmpty(res.data) )
-                {
-                  //맨 첫 컬럼 내용만 보여 줌.
-                  Vue.alert('['+code+'] '+res.data[0]);
+      function response(res) {
+        if (res != null) {
+          if (res.code == '0000') {
+            Vue.alert(res.message).then((val) => {
+              if (val == true) {
+                var params = {
+                  type: '01', //고객상담
+                  gubun: gubun,
+                  receipt_id: res.data.receipt_id
                 }
-                else
-                {
-                  Vue.alert('['+code+'] '+message);
-                }
+                send_mail(getUrl('sendmail-regist'), params);
               }
+            });
+          } else {
+            var code = res.code;
+            var message = res.message;
+            if (!com_utils.isEmpty(res.data)) {
+              //맨 첫 컬럼 내용만 보여 줌.
+              Vue.alert('[' + code + '] ' + res.data[0]);
+            } else {
+              Vue.alert('[' + code + '] ' + message);
+            }
           }
+        }
       }
 
       //--------------------------------------------
@@ -741,7 +742,8 @@
           contract_amt: contract_amt,
           household: household,
           password: com_utils.SHA256(password),
-          lang: 'ko'
+          lang: 'ko',
+          otp: $("#otp").val()
         };
 
         return item;

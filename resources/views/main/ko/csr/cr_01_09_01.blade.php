@@ -387,6 +387,17 @@
                     </div>
                   </dd>
                 </dl>
+                <dl class="password">
+                  <dt>
+                    <label for="otp">토큰코드<span>*</span></label>
+                  </dt>
+                  <dd>
+                    <div class="input-box">
+                      <input id="otp" type="text" placeholder="아래 문자 입력" maxlength="6">
+                      {{$token}}
+                    </div>
+                  </dd>
+                </dl>
                 <p class="info-text">*제보 내용은 비공개 처리 되며 등록 및 답변은 [제보 > 제보 조회] 메뉴에서 입력하신 이메일과 비밀번호를 통해 확인하실 수 있습니다.</p>
               </div>
             </div>
@@ -682,7 +693,8 @@
           accuser_nm: accuser_nm,
           part_nm: part_nm,
           password: com_utils.SHA256(password),
-          lang: 'ko'
+          lang: 'ko',
+          otp: $("#otp").val()
         };
 
         return item;

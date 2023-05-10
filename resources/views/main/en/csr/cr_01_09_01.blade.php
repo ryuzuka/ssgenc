@@ -381,6 +381,17 @@
                     </div>
                   </dd>
                 </dl>
+                <dl class="password">
+                  <dt>
+                    <label for="otp">Token Code<span>*</span></label>
+                  </dt>
+                  <dd>
+                    <div class="input-box">
+                      <input id="otp" type="text" placeholder="Enter below text" maxlength="6">
+                      {{$token}}
+                    </div>
+                  </dd>
+                </dl>
                 <p class="info-text">*Reports will be confidentially processed, and you can check your inquiry and answer you’re your email and password in the<br class="pc-only"> [Reporting > Search Report] Menu.</p>
               </div>
             </div>
@@ -676,7 +687,8 @@
           accuser_nm: accuser_nm,
           part_nm: part_nm,
           password: com_utils.SHA256(password),
-          lang: 'en'
+          lang: 'en',
+          otp: $("#otp").val()
         };
 
         return item;

@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Str;
 use Validator;
 
 class CustomQuestionController extends Controller
@@ -120,27 +121,28 @@ class CustomQuestionController extends Controller
 
     //-------------------------------------------
     // 고객상담요청 초기 호출
-    public function get($type)
-    {
-        $lang = $this->getLanguage();
+  public function get($type)
+  {
+    $lang = $this->getLanguage();
+    $token = Str::random(6); // Generate a random token
+    session(['otp_token' => $token]);
 
-        if ($type == '01')
-        {
-            //고객상담
-            $items_custsvc = DB::table('codes')->where(['codegroup_id'=>'custsvc', 'view'=>'Y'])->get();
-            return view('main.'.$lang.'.footer.ft_01_02')->with([
-                'items_custsvc' => $items_custsvc
-            ]);
-        }
-        else
-        {
-            //제보
-            $items_tipoffs = DB::table('codes')->where(['codegroup_id'=>'tipoffs', 'view'=>'Y'])->get();
-            return view('main.'.$lang.'.csr.cr_01_09_01')->with([
-                'items_tipoffs' => $items_tipoffs
-            ]);
-        }
+    if ($type == '01') {
+      //고객상담
+      $items_custsvc = DB::table('codes')->where(['codegroup_id' => 'custsvc', 'view' => 'Y'])->get();
+      return view('main.' . $lang . '.footer.ft_01_02')->with([
+        'items_custsvc' => $items_custsvc,
+        'token' => $token,
+      ]);
+    } else {
+      //제보
+      $items_tipoffs = DB::table('codes')->where(['codegroup_id' => 'tipoffs', 'view' => 'Y'])->get();
+      return view('main.' . $lang . '.csr.cr_01_09_01')->with([
+        'items_tipoffs' => $items_tipoffs,
+        'token' => $token,
+      ]);
     }
+  }
 
     //-------------------------------------------
     // 고객상담요청 초기 호출
@@ -1222,6 +1224,16 @@ class CustomQuestionController extends Controller
 
         $r = $request->input();
         $data = json_decode($r['data'], true);
+
+
+      $token = session('otp_token');
+      if ($data['otp'] !== $token) {
+        $lang = $this->getLanguage();
+        $message = ($lang == 'ko') ? '토큰 값이 유효하지 않습니다.' : 'Token value is not valid.';
+        return $this->handle_error('9999', $message);
+      }
+      session()->forget('otp_token');
+
 
         $id = $data['id'];
         $type = $data['type'];
