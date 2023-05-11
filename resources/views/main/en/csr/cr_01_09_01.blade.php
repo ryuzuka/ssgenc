@@ -305,6 +305,22 @@
                     </div>
                   </dd>
                 </dl>
+                <dl class="reply">
+                  <dt>
+                    Accept or Decline to be contacted<span>*</span>
+                  </dt>
+                  <dd>
+                    <div class="chk-box">
+                      <input id="rdo3-1" type="radio" name="reply_yn" value="Y">
+                      <label for="rdo3-1">Required</label>
+                    </div>
+                    <div class="chk-box">
+                      <input id="rdo3-2" type="radio" name="reply_yn" value="N">
+                      <label for="rdo3-2">Not Required</label>
+                    </div>
+                    <p class="msg">*Results will be notified to the email address you provide, and results can only be notified if you report with your real name.</p>
+                  </dd>
+                </dl>
                 <dl>
                   <dt>Attachment</dt>
                   <dd>
@@ -353,22 +369,6 @@
                       </div>
                       <p class="msg">You can attach up to 5 files. (Acceptable file formats within 50MB: png, jpg, jpeg, gif, pdf)</p>
                     </div>
-                  </dd>
-                </dl>
-                <dl class="reply">
-                  <dt>
-                    Accept or Decline to be contacted<span>*</span>
-                  </dt>
-                  <dd>
-                    <div class="chk-box">
-                      <input id="rdo3-1" type="radio" name="reply_yn" value="Y">
-                      <label for="rdo3-1">Required</label>
-                    </div>
-                    <div class="chk-box">
-                      <input id="rdo3-2" type="radio" name="reply_yn" value="N">
-                      <label for="rdo3-2">Not Required</label>
-                    </div>
-                    <p class="msg">*Results will be notified to the email address you provide, and results can only be notified if you report with your real name.</p>
                   </dd>
                 </dl>
                 <dl class="password">
