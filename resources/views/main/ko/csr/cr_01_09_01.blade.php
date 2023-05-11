@@ -311,6 +311,22 @@
                     </div>
                   </dd>
                 </dl>
+                <dl class="reply">
+                  <dt>
+                    답변 회신 여부<span>*</span>
+                  </dt>
+                  <dd>
+                    <div class="chk-box">
+                      <input id="rdo3-1" type="radio" name="reply_yn" value="Y">
+                      <label for="rdo3-1">필요</label>
+                    </div>
+                    <div class="chk-box">
+                      <input id="rdo3-2" type="radio" name="reply_yn" value="N">
+                      <label for="rdo3-2">불필요</label>
+                    </div>
+                    <p class="msg">* 결과통보는 입력하신 이메일로 안내드리며, 실명일 경우에만 결과 통보가 가능합니다.</p>
+                  </dd>
+                </dl>
                 <dl>
                   <dt>파일첨부</dt>
                   <dd>
@@ -359,22 +375,6 @@
                       </div>
                       <p class="msg">첨부파일은 최대 5개 등록 가능합니다. (50MB 이내의 확장자 png, jpg, jpeg, gif, pdf)</p>
                     </div>
-                  </dd>
-                </dl>
-                <dl class="reply">
-                  <dt>
-                    답변 회신 여부<span>*</span>
-                  </dt>
-                  <dd>
-                    <div class="chk-box">
-                      <input id="rdo3-1" type="radio" name="reply_yn" value="Y">
-                      <label for="rdo3-1">필요</label>
-                    </div>
-                    <div class="chk-box">
-                      <input id="rdo3-2" type="radio" name="reply_yn" value="N">
-                      <label for="rdo3-2">불필요</label>
-                    </div>
-                    <p class="msg">* 결과통보는 입력하신 이메일로 안내드리며, 실명일 경우에만 결과 통보가 가능합니다.</p>
                   </dd>
                 </dl>
                 <dl class="password">

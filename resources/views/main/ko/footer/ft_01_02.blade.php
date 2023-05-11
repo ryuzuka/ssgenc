@@ -394,27 +394,6 @@
                   </div>
                 </dd>
               </dl>
-              <dl class="password">
-                <dt>
-                  <label for="password">비밀번호<span>*</span></label>
-                </dt>
-                <dd>
-                  <div class="input-box">
-                    <input id="password" type="password" placeholder="6자리 숫자 입력" maxlength="6">
-                  </div>
-                </dd>
-              </dl>
-              <dl class="password">
-                <dt>
-                  <label for="otp">보안코드<span>*</span></label>
-                </dt>
-                <dd>
-                  <div class="input-box attach-file-box">
-                    <input id="otp" type="text" placeholder="보안코드 입력" maxlength="6">
-                    <p class="msg">{{$token}}</p>
-                  </div>
-                </dd>
-              </dl>
               <dl>
                 <dt>파일첨부</dt>
                 <dd>
@@ -462,6 +441,27 @@
                       </div>
                     </div>
                     <p class="msg">첨부파일은 최대 5개 등록 가능합니다. (50MB 이내의 확장자 png, jpg, jpeg, gif, pdf)</p>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="password">
+                <dt>
+                  <label for="password">비밀번호<span>*</span></label>
+                </dt>
+                <dd>
+                  <div class="input-box">
+                    <input id="password" type="password" placeholder="6자리 숫자 입력" maxlength="6">
+                  </div>
+                </dd>
+              </dl>
+              <dl class="password">
+                <dt>
+                  <label for="otp">보안코드<span>*</span></label>
+                </dt>
+                <dd>
+                  <div class="input-box attach-file-box">
+                    <input id="otp" type="text" placeholder="보안코드 입력" maxlength="6">
+                    <p class="msg">{{$token}}</p>
                   </div>
                 </dd>
               </dl>
