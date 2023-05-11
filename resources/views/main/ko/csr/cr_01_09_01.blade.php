@@ -389,12 +389,12 @@
                 </dl>
                 <dl class="password">
                   <dt>
-                    <label for="otp">토큰코드<span>*</span></label>
+                    <label for="otp">보안코드<span>*</span></label>
                   </dt>
                   <dd>
-                    <div class="input-box">
-                      <input id="otp" type="text" placeholder="아래 문자 입력" maxlength="6">
-                      {{$token}}
+                    <div class="input-box attach-file-box">
+                      <input id="otp" type="text" placeholder="보안코드 입력" maxlength="6">
+                      <p class="msg">{{$token}}</p>
                     </div>
                   </dd>
                 </dl>
