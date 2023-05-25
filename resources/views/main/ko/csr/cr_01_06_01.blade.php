@@ -691,6 +691,29 @@
                 </li>
               </ul>
 
+              <h5 class="sg-text-06" style="font-weight: 400">용수 사용량</h5>
+              <div class="img-wrap">
+                <picture>
+                  <source media="(max-width: 1024px)" srcset="/images/csr/graph-cr6-11-m.png">
+                  <img src="/images/csr/graph-cr6-11.png" alt="22년 2월 현재 진행 실적">
+                </picture>
+                <div class="blind">
+                  <em>Goal</em>
+                  <ul>
+                    <li>2020 : 159,725 ㎥</li>
+                    <li>2021 : 209,807 ㎥</li>
+                    <li>2022 : 248,693 ㎥</li>
+                  </ul>
+                  <em>Performance</em>
+                  <ul>
+                    <li>2020 : 79,548 ㎥</li>
+                    <li>2021 : 146,204 ㎥</li>
+                    <li>2022 : 239,128 ㎥</li>
+                  </ul>
+                </div>
+                <p class="text">※ 현장에서 사용하는 용수 사용량</p>
+              </div>
+
               <h4 class="sg-text-04">폐기물 배출량 <span>(자원재활용)</span></h4>
               <p class="sg-text-09">저희 회사는 폐기물 배출량을 최소화하기 위하여 현장에서 발생되는 폐기물 배출량을 모니터링하고 이를 줄이기 위한 노력을 실천하고 있습니다.<br>
                 현장에서 발생하는 철스크랩을 재활용하고 이를 지속적으로 관리하고 있습니다.</p>
