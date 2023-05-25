@@ -1023,10 +1023,10 @@ body.block-scroll { overflow: hidden; position: fixed; width: 100%; height: 100%
 .loading { position: absolute; top: 50%; left: 50%; margin: -23px 0 0 -23px; -webkit-animation: rotate .7s linear infinite; animation: rotate .7s linear infinite; }
 
 @-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg);
-  transform: rotate(360deg); } }
+    transform: rotate(360deg); } }
 
 @keyframes rotate { 100% { -webkit-transform: rotate(360deg);
-  transform: rotate(360deg); } }
+    transform: rotate(360deg); } }
 
 .loading-wrap { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 10; }
 
@@ -2442,6 +2442,12 @@ body.block-scroll { overflow: hidden; position: fixed; width: 100%; height: 100%
 .c-cr06 .certification dl dd { padding: 20px 0; border-top: 1px solid #444; border-bottom: 1px solid #dddddd; font-size: 16px; color: #787878; line-height: 27px; }
 
 .c-cr06 .certification dl dd .link { display: inline-block; background: #da2128; padding: 0 17px; border-radius: 4px; font-size: 14px; color: #fff; line-height: 26px; letter-spacing: -.7px; }
+
+.c-cr06 .certification.greenhousegas dt { border-bottom: 1px solid #000; }
+
+.c-cr06 .certification.greenhousegas dd { border-top: 1px solid #ddd; border-bottom: 0px solid #ddd; }
+
+.c-cr06 .certification.greenhousegas dd:last-child { background-color: #f8f8f8; }
 
 .c-cr06 .accordion { margin-top: 60px; }
 
@@ -4501,6 +4507,9 @@ body.block-scroll { overflow: hidden; position: fixed; width: 100%; height: 100%
   .c-cr06 .certification dl dt { max-width: 43%; width: 100%; padding: 2rem 0; font-size: 1.6rem; line-height: 2.7rem; letter-spacing: -.016rem; -ms-flex-negative: 0; flex-shrink: 0; }
   .c-cr06 .certification dl dd { padding: 2rem 0; border-top: none; border-bottom: none; font-size: 1.6rem; line-height: 2.7rem; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
   .c-cr06 .certification dl dd .link { padding: 0 1.7rem; font-size: 1.4rem; color: #fff; line-height: 2.6rem; letter-spacing: -.07rem; }
+  .c-cr06 .certification.greenhousegas dt { max-width: 15%; border-bottom: 0px solid #000; }
+  .c-cr06 .certification.greenhousegas dd { border-top: 0px solid #ddd; border-bottom: 0px solid #ddd; }
+  .c-cr06 .certification.greenhousegas dd:last-child { background-color: #fff; }
   .c-cr06 .accordion { margin-top: 6rem; }
   .c-cr06 .accordion-content .sg-text-04 { margin-top: 12rem; -ms-flex-wrap: wrap; flex-wrap: wrap; }
   .c-cr06 .accordion-content .sg-text-04 span { margin-left: .4rem; font-size: 1.6rem; font-weight: 500; line-height: 2rem; letter-spacing: -.016rem; }

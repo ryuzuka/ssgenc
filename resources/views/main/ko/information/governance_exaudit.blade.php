@@ -37,10 +37,10 @@
             <div id="tab-content3" class="content" role="tabpanel" aria-labelledby="tab3" tabindex="0">
               <h3 class="sg-text-04">외부감사인</h3>
               <ul class="list04">
-                <li><em>법인명</em> : 삼정회계법인 </li>
-                <li><em>선임일</em> : 제 30기 </li>
-                <li><em>계약기간</em> : 제30기~제32기 (2020~2022)</li>
-                <li><em>감사의견</em> : 적정 (제32기 연간) </li>
+                <li><em>법인명</em> : 한영회계법인 </li>
+                <li><em>선임일</em> : 제 33기 </li>
+                <li><em>계약기간</em> : 제33기~제35기 (2023~2025)</li>
+                <li><em>감사의견</em> : 적정 (제32기 연간_삼정회계법인) </li>
                 <li><em>지적 사항 등의 요약</em> : 해당사항 없음 </li>
               </ul>
               <h3 class="sg-text-04">ESG등급현황</h3>
@@ -99,7 +99,7 @@
                 </tr>
                 </tbody>
               </table>
-              <span class="sg-text-10">※ 평가기관 : 한국기업지배구조원(KCGS)</span>
+              <span class="sg-text-10">※ 평가기관 : 한국ESG기준원(KCGS)</span>
             </div>
           </div>
         </div>
