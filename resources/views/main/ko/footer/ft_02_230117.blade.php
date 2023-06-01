@@ -130,7 +130,7 @@
               </tr>
               <tr>
                 <td>(주)신세계아이앤씨</td>
-                <td>홈페이지 서버 운영 및 관리, 문자 / 카카오 알림톡 발송 서비스</td>
+                <td>홈페이지 서버 운영 및 관리, 문자 발송 서비스</td>
               </tr>
               <tr>
                 <td>㈜케이티</td>
@@ -225,9 +225,8 @@
             <em class="sg-text-07">11. 아동의 개인정보보호</em>
             <p class="sg-text-09">회사는 법정 대리인의 동의가 필요한 만14세 미만 아동의 개인정보를 수집하지 않습니다.</p>
             <em class="sg-text-07">12. 개인정보 처리방침 변경</em>
-            <p class="sg-text-09">본 개인정보처리방침은 2023년 06월 15일부터 적용됩니다.</p>
-            <a href="privacy-policy-230117" class="before-privacy">이전 개인정보처리방침 보기(2023.01.17 ~ 2023.06.14)</a><br>
-            <a href="privacy-policy-220831" class="before-privacy" style="margin-top:0;">이전 개인정보처리방침 보기(2022.08.31 ~ 2023.01.11)</a><br>
+            <p class="sg-text-09">본 개인정보처리방침은 2023년 01월 12일부터 적용됩니다.</p>
+            <a href="privacy-policy-220831" class="before-privacy">이전 개인정보처리방침 보기(2022.08.31 ~ 2023.01.11)</a><br>
             <a href="privacy-policy-220328" class="before-privacy" style="margin-top:0;">이전 개인정보처리방침 보기(2022.03.28 ~ 2022.08.30)</a>
           </div>
         </div>
