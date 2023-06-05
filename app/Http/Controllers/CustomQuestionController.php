@@ -1035,8 +1035,11 @@ class CustomQuestionController extends Controller
 
         if (isset($searchText))
         {
-            //우선 제목만
-            $q = $q->where('subject','LIKE','%'.$searchText.'%');
+          //우선 제목만
+          //$q = $q->where('subject','LIKE','%'.$searchText.'%');
+          $q = $q->where(function ($q) use ($searchText) {
+            $q->where('subject', 'LIKE', '%' . $searchText . '%')->orWhere('content', 'LIKE', '%' . $searchText . '%');
+          });
         }
 
         //TODO 고객상담일 경우, 구분권한설정에 따라 목록을 필터링해야 함.
@@ -1048,6 +1051,7 @@ class CustomQuestionController extends Controller
                 $q = $q->whereIn('gubun', $code_filter);
             }
         }
+        //dd($q->toSql());
 
         $items = $q
                     ->orderBy('created_at', 'desc')
