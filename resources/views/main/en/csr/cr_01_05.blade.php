@@ -241,20 +241,22 @@
               <img src="/images/en/csr/graph-cr5-01.png" alt="">
             </picture>
           </div>
+
           <div class="scroll-box">
             <table class="tbl-list">
-              <caption><span class="blind"></span></caption>
+              <caption><span class="blind">재해현황 정보</span></caption>
               <colgroup>
-                <col class="width01">
-                <col class="width02">
-                <col class="width02">
-                <col class="width02">
-                <col class="width02">
-                <col class="width02">
+                <col style="width:15%;">
+                <col style="width:15%;">
+                <col style="width:14%;">
+                <col style="width:14%;">
+                <col style="width:14%;">
+                <col style="width:14%;">
+                <col style="width:14%;">
               </colgroup>
               <thead>
               <tr>
-                <th scope="col">Category</th>
+                <th scope="col" colspan="2">Category</th>
                 <th scope="col">2017</th>
                 <th scope="col">2018</th>
                 <th scope="col">2019</th>
@@ -264,6 +266,24 @@
               </thead>
               <tbody>
               <tr>
+                <th scope="row" rowspan="2">Casualties</th>
+                <th scope="row">Employee</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">Partners</th>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="2">Mortality rate</th>
                 <th scope="row">Shinsegae E&C</th>
                 <td>3.52</td>
                 <td>1.85</td>
@@ -282,6 +302,8 @@
               </tbody>
             </table>
           </div>
+          <p class="sg-text-09">※ Excluding on-site fatalities of our joint subcontractor members</p>
+
         </div>
       </div>
     </div>

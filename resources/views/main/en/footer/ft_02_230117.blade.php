@@ -133,7 +133,7 @@
               </tr>
               <tr>
                 <td>Shinsegae I&C Co., Ltd</td>
-                <td>Website server operation and management SMS / Kakao AlimTalk sending service</td>
+                <td>Website server operation and management SMS sending service</td>
               </tr>
               <tr>
                 <td>KT Co., Ltd</td>
@@ -214,9 +214,8 @@
             <em class="sg-text-07">11. The protection of children's personal information</em>
             <p class="sg-text-09">The company does not collect personal information of children under the age of 14 who require the consent of a legal representative.</p>
             <em class="sg-text-07">12. Modification of personal information processing policy</em>
-            <p class="sg-text-09">This privacy policy will take effect from June 15, 2023.</p>
-            <a href="privacy-policy-230117" class="before-privacy">View previous personal information processing policy (2023.01.17 ~ 2023.06.14)</a><br>
-            <a href="privacy-policy-220831" class="before-privacy" style="margin-top:0;">View previous personal information processing policy (2022.08.31 ~ 2023.01.11)</a><br>
+            <p class="sg-text-09">This privacy policy will take effect from January 12, 2023.</p>
+            <a href="privacy-policy-220831" class="before-privacy">View previous personal information processing policy (2022.08.31 ~ 2023.01.11)</a><br>
             <a href="privacy-policy-220328" class="before-privacy" style="margin-top:0;">View previous personal information processing policy (2022.03.28 ~ 2022.08.30)</a>
           </div>
         </div>

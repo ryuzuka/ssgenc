@@ -305,6 +305,22 @@
                     </div>
                   </dd>
                 </dl>
+                <dl class="reply">
+                  <dt>
+                    Accept or Decline to be contacted<span>*</span>
+                  </dt>
+                  <dd>
+                    <div class="chk-box">
+                      <input id="rdo3-1" type="radio" name="reply_yn" value="Y">
+                      <label for="rdo3-1">Required</label>
+                    </div>
+                    <div class="chk-box">
+                      <input id="rdo3-2" type="radio" name="reply_yn" value="N">
+                      <label for="rdo3-2">Not Required</label>
+                    </div>
+                    <p class="msg">*Results will be notified to the email address you provide, and results can only be notified if you report with your real name.</p>
+                  </dd>
+                </dl>
                 <dl>
                   <dt>Attachment</dt>
                   <dd>
@@ -355,22 +371,6 @@
                     </div>
                   </dd>
                 </dl>
-                <dl class="reply">
-                  <dt>
-                    Accept or Decline to be contacted<span>*</span>
-                  </dt>
-                  <dd>
-                    <div class="chk-box">
-                      <input id="rdo3-1" type="radio" name="reply_yn" value="Y">
-                      <label for="rdo3-1">Required</label>
-                    </div>
-                    <div class="chk-box">
-                      <input id="rdo3-2" type="radio" name="reply_yn" value="N">
-                      <label for="rdo3-2">Not Required</label>
-                    </div>
-                    <p class="msg">*Results will be notified to the email address you provide, and results can only be notified if you report with your real name.</p>
-                  </dd>
-                </dl>
                 <dl class="password">
                   <dt>
                     <label for="password">Password<span>*</span></label>
@@ -383,12 +383,12 @@
                 </dl>
                 <dl class="password">
                   <dt>
-                    <label for="otp">Token Code<span>*</span></label>
+                    <label for="otp">Security Code<span>*</span></label>
                   </dt>
                   <dd>
-                    <div class="input-box">
-                      <input id="otp" type="text" placeholder="Enter below text" maxlength="6">
-                      {{$token}}
+                    <div class="input-box attach-file-box">
+                      <input id="otp" type="text" placeholder="Enter security code" maxlength="6">
+                      <p class="msg">{{$token}}</p>
                     </div>
                   </dd>
                 </dl>

@@ -392,27 +392,6 @@
                   </div>
                 </dd>
               </dl>
-              <dl class="password">
-                <dt>
-                  <label for="password">Password<span>*</span></label>
-                </dt>
-                <dd>
-                  <div class="input-box">
-                    <input id="password" type="password" placeholder="Enter 6 digits" maxlength="6">
-                  </div>
-                </dd>
-              </dl>
-              <dl class="password">
-                <dt>
-                  <label for="otp">Token Code<span>*</span></label>
-                </dt>
-                <dd>
-                  <div class="input-box">
-                    <input id="otp" type="text" placeholder="Enter below text" maxlength="6">
-                    {{$token}}
-                  </div>
-                </dd>
-              </dl>
               <dl>
                 <dt>Attachment</dt>
                 <dd>
@@ -460,6 +439,27 @@
                       </div>
                     </div>
                     <p class="msg">You can attach up to 5 files. (Acceptable file formats within 50MB: png, jpg, jpeg, gif, pdf)</p>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="password">
+                <dt>
+                  <label for="password">Password<span>*</span></label>
+                </dt>
+                <dd>
+                  <div class="input-box">
+                    <input id="password" type="password" placeholder="Enter 6 digits" maxlength="6">
+                  </div>
+                </dd>
+              </dl>
+              <dl class="password">
+                <dt>
+                  <label for="otp">Security code<span>*</span></label>
+                </dt>
+                <dd>
+                  <div class="input-box attach-file-box">
+                    <input id="otp" type="text" placeholder="Enter security code" maxlength="6">
+                    <p class="msg">{{$token}}</p>
                   </div>
                 </dd>
               </dl>

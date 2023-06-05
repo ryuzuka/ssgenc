@@ -296,6 +296,9 @@ Route::get('search-inquiry', function (Request $request){
 Route::get('privacy-policy', function (){
     return view('main.'.App::getLocale().'.footer.ft_02');
 });
+Route::get('privacy-policy-230117', function (){
+  return view('main.'.App::getLocale().'.footer.ft_02_230117');
+});
 Route::get('privacy-policy-220831', function (){
   return view('main.'.App::getLocale().'.footer.ft_02_220831');
 });
