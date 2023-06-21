@@ -212,6 +212,10 @@
               <dd><a href="/file/csr/ISO14001.pdf" class="link">인증서</a></dd>
             </dl>
           </div>
+          <p class="text">※ 환경 성과의 보고 기간과 범위<br>
+            홈페이지에 공개된 환경성과의 기간은 2020년 1월1일 부터 2022년12월 31일까지 3개년도의 데이터를 기재하였습니다.
+            공개의 범위는 국내의 59개 사업장이며 일부 자료(친환경투자,기후대응활동, 원자재절감 활동)는 집계기준의 변경에 의해 2020년,2021년의 데이터 변경이 있습니다.
+          </p>
           <dl class="accordion js-accordion">
             <dt class="accordion-head"><button type="button" aria-controls="acco-content1" aria-expanded="false">친환경 투자</button></dt>
             <dd id="acco-content1" class="accordion-content">
@@ -529,9 +533,9 @@
                   </tbody>
                 </table>
               </div>
-              <p class="text-info">※ 21년 에너지 절감 실적<br>
-                - 물 재이용량 :  5,000톤 ( 2021년 현장 물 사용량 51,900톤 대비 절감실적 9.6 % )<br>
-                - 태양광 에너지 :  353,000kW  ( 149.8 tCO2e 이산화탄소 배출저감효과)  ※ 일 평균 3.6시간 생산 기준</p>
+              <p class="text-info">※ 에너지 절감 실적<br>
+                - 물 재이용량 : 5,000톤 (현장 물 사용량 51,900톤 대비 절감실적 9.6%)
+                - 태양광 에너지 : 353,000kW (149.8tCO2e 이산화탄소 배출저감효과) ※일 평균 3.6시간 생산 기준</p>
               <h4 class="sg-text-04">친환경공법<span>(온실가스 배출 저감)</span></h4>
               <p class="sg-text-09">신세계건설은 환경 친화적인 공법을 사용하여 원자재를 절감하고, 폐기물 발생을 줄이며, 나아가 더 깨끗한 건설현장을 만들기 위하여 다양한 공법을 사용하고 있습니다.<br>
                 앞으로도 회사에서 보유하고 있는 신기술/ 신공법을 적극적으로 활용하여 환경 친화적인 건설회사로 발전해 나가도록 하겠습니다.</p>
@@ -578,7 +582,7 @@
                     빌리브 스카이 외 다수의 주거 현장, 고양 스타필드, 대전사이언스콤플렉스 현장 적용</p>
                 </li>
               </ul>
-              <em class="sg-text-06">합성 전이보 공법<span>(※ 22년 녹색기술인증 추진)</span></em>
+              <em class="sg-text-06">합성 전이보 공법</em>
               <p class="sg-text-09">신세계건설사에서는 합성전이보 공법에 대한 녹색기술인증을 추진하고 있습니다.<br>
                 본 공법은 주거 건축물에 많이 반영되어있는 대형 철근콘크리트조 전이보 구조물을 철골구조화함으로써 부재를 슬림화하여 원재료를 줄이고 폐기물 및 이산화탄소의 발생을 줄일 수 있는 공법입니다.</p>
               <ul class="list02">
@@ -742,6 +746,70 @@
                   <span class="sg-text-10">※ 현장 고철 처리량</span>
                 </li>
               </ul>
+
+              <div class="scroll-box">
+                <div class="unit-box">
+                  <h5 class="sg-text-06">폐기물 발생량 유형별 구분</h5>
+                  <span class="txt">(단위 : TON)</span>
+                </div>
+                <table class="tbl-list">
+                  <caption><span class="blind">폐기물 발생량 유형별 구분 정보</span></caption>
+                  <colgroup>
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                    <col style="width:10%;">
+                  </colgroup>
+                  <thead>
+                  <tr>
+                    <th scope="col">유형</th>
+                    <th scope="col" colspan="3">2020</th>
+                    <th scope="col" colspan="3">2021</th>
+                    <th scope="col" colspan="3">2022</th>
+                  </tr>
+                  </thead>
+                  <tfoot>
+                  <tr>
+                    <th scope="row">총 발생량</th>
+                    <td colspan="3" class="center">117,193</td>
+                    <td colspan="3" class="center">80,242</td>
+                    <td colspan="3" class="center">239,628</td>
+                  </tr>
+                  </tfoot>
+                  <tbody>
+                  <tr>
+                    <th scope="row" rowspan="2">건설폐기물</th>
+                    <td>재활용</td>
+                    <td>매립</td>
+                    <td>소각</td>
+                    <td>재활용</td>
+                    <td>매립</td>
+                    <td>소각</td>
+                    <td>재활용</td>
+                    <td>매립</td>
+                    <td>소각</td>
+                  </tr>
+                  <tr>
+                    <td>82,035</td>
+                    <td>11,739</td>
+                    <td>23,419</td>
+                    <td>60,181</td>
+                    <td>4,315</td>
+                    <td>15,746</td>
+                    <td>213,173</td>
+                    <td>8,818</td>
+                    <td>17,637</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="sg-text-09">※ 지정폐기물 발생량 없음</p>
 
               <h4 class="sg-text-04">폐기물 절감</h4>
               <h5 class="sg-text-06">현장 폐기물 저감 및 재활용 활동</h5>
