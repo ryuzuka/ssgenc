@@ -69,7 +69,7 @@
             </div>
             <ul class="list">
               <li>
-                <span class="sg-text-07">환경경영 정착</span>
+                <span class="sg-text-07">환경경영 고도화</span>
                 <ul>
                   <li>체계적 환경업무 Process 확립</li>
                   <li>ISO14001 연계한 ESG 환경 관리활동 강화</li>
