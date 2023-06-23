@@ -25,7 +25,7 @@ class CustomReplyController extends Controller
 
     protected $clazz = self::__CLAZZ__;
 
-    public function __construct()  
+    public function __construct()
     {
         //[주의]
         //모델은 CustomReply로 되어 있지만, 결국 CustomQuestion
@@ -41,7 +41,7 @@ class CustomReplyController extends Controller
     public function index(Request $request)
     {
         // $items_custsvc = DB::table('codes')->where(['codegroup_id' => 'custsvc'])->get();
-        // return view('main.'.App::getLocale().'.footer.ft_01_02')->with([       
+        // return view('main.'.App::getLocale().'.footer.ft_01_02')->with([
         //     'items_custsvc' => $items_custsvc
         // ]);
 
@@ -121,7 +121,7 @@ class CustomReplyController extends Controller
         }
 
         return $this->handle_ok((($cust_quest->type=='01')?"고객상담":"제보")." 답변이 등록되었습니다.", ['id'=>$item->id]);
-    }    
+    }
 
     //-------------------------------------------
     public function get($id)
@@ -235,7 +235,7 @@ class CustomReplyController extends Controller
             {
                 $custquest->reply_flag = $data['reply_flag'];
                 $custquest->save();
-            }            
+            }
 
             $this->commit();
 
@@ -316,13 +316,15 @@ class CustomReplyController extends Controller
             $customer = (new CustomerController)->get($custquest->cust_id);
             if (isset($customer))
             {
-                $content = view('admin.common.mail.email_reply')->with([
-                    'lang' => $lang,
-                    'type' => $type,
-                    'receipt_id' => $id,
-                    'url_result' => URL::to('search-inquiry?type='.$type),
-                    'url_main' => URL::to('/')
-                ])->render();
+              $content = view('admin.common.mail.email_reply')->with([
+                'lang' => $lang,
+                'type' => $type,
+                'receipt_id' => $id,
+                /*'url_result' => URL::to('search-inquiry?type='.$type),
+                'url_main' => URL::to('/')*/
+                'url_result' => config('app.url_1') . '/search-inquiry?type=' . $type,
+                'url_main' => config('app.url_1'),
+              ])->render();
 
                 if (isset($content))
                 {

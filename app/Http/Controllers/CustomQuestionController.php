@@ -164,13 +164,15 @@ class CustomQuestionController extends Controller
         $type = $request->type;
         $id = $request->receipt_id;
 
-        $html = view('main.'.App::getLocale().'.footer.ft_01_02_end')->with([
-            'mail_form' => false,
-            'type' => $type,
-            'receipt_id' => $id,
-            'url_result' => URL::to('search-inquiry?type='.$type),
-            'url_main' => URL::to('/')
-        ])->render();
+      $html = view('main.' . App::getLocale() . '.footer.ft_01_02_end')->with([
+        'mail_form' => false,
+        'type' => $type,
+        'receipt_id' => $id,
+        /*'url_result' => URL::to('search-inquiry?type='.$type),
+        'url_main' => URL::to('/')*/
+        'url_result' => config('app.url_1') . '/search-inquiry?type=' . $type,
+        'url_main' => config('app.url_1'),
+      ])->render();
 
         return $html;
     }
@@ -641,13 +643,15 @@ class CustomQuestionController extends Controller
             if (isset($customer))
             {
                 //고객, 담당자 구분값이 필요 함(수정필요).
-                $content = view('admin.common.mail.email_regist')->with([
-                    'lang' => $lang,
-                    'type' => $type,
-                    'receipt_id' => $id,
-                    'url_result' => URL::to('search-inquiry?type='.$type),
-                    'url_main' => URL::to('/')
-                ])->render();
+              $content = view('admin.common.mail.email_regist')->with([
+                'lang' => $lang,
+                'type' => $type,
+                'receipt_id' => $id,
+                /*'url_result' => URL::to('search-inquiry?type='.$type),
+                'url_main' => URL::to('/')*/
+                'url_result' => config('app.url_1') . '/search-inquiry?type=' . $type,
+                'url_main' => config('app.url_1'),
+              ])->render();
 
                 if (isset($content))
                 {
@@ -762,14 +766,16 @@ class CustomQuestionController extends Controller
                     $customer = (new CustomerController)->get($custquest->cust_id);
                     if (isset($customer))
                     {
-                        $content = view('admin.common.mail.email_change')->with([
-                            'lang' => $lang,
-                            'type' => $type,
-                            'category' => $this->getCategory($type, $gubun),
-                            'receipt_id' => $id,
-                            'url_result' => URL::to('search-inquiry?type='.$type),
-                            'url_main' => URL::to('/')
-                        ])->render();
+                      $content = view('admin.common.mail.email_change')->with([
+                        'lang' => $lang,
+                        'type' => $type,
+                        'category' => $this->getCategory($type, $gubun),
+                        'receipt_id' => $id,
+                        /*'url_result' => URL::to('search-inquiry?type='.$type),
+                        'url_main' => URL::to('/')*/
+                        'url_result' => config('app.url_1') . '/search-inquiry?type=' . $type,
+                        'url_main' => config('app.url_1'),
+                      ])->render();
 
                         if (isset($content))
                         {
