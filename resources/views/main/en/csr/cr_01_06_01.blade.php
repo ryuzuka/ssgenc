@@ -1053,20 +1053,20 @@
                       </td>
                     </tr>
                     <tr>
-                      <th scope="row" rowspan="3">Green building certification<span class="type-en">(incl. pre-certified)</span></th>
+                      <th scope="row" rowspan="3">Green building certification</span></th>
                       <th scope="row" class="type-en">Certification<br>Grade</th>
                       <td>Excellent<br>(Green Grade 2)</td>
                       <td>Excellent<br>(Green Grade 2)</td>
                       <td>Excellent<br>(Green Grade 2)</td>
                       <td>Excellent<br>(Green Grade 2)</td>
-                      <td>Excellent<br>(Green Grade 4)</td>
+                      <td>General<br>(Green Grade 4)</td>
                     </tr>
                     <tr>
                       <th scope="row" class="type-en">Certification<br>Date</th>
-                      <td>March 31, 2021</td>
-                      <td>November 4, 2021</td>
-                      <td>April 29, 2020</td>
-                      <td>February 11, 2020</td>
+                      <td>January 26, 2023</td>
+                      <td>November 17, 2021</td>
+                      <td>March 27, 2023</td>
+                      <td>January 07, 2022</td>
                       <td>November 17, 2021</td>
                     </tr>
                     <tr class="type-en">
@@ -1080,7 +1080,7 @@
                     <tr>
                       <th scope="row" rowspan="3">Energy Efficiency Rating</th>
                       <th scope="row" class="type-en">Certification<br>Grade</th>
-                      <td>1+++</td>
+                      <td>1++</td>
                       <td>1++</td>
                       <td>1+</td>
                       <td>1++</td>
@@ -1088,17 +1088,17 @@
                     </tr>
                     <tr>
                       <th scope="row" class="type-en">Certification<br>Date</th>
-                      <td>December 24, 2020</td>
-                      <td>September 26, 2019</td>
-                      <td>September 9, 2019</td>
-                      <td>February 4, 2020</td>
+                      <td>January 16, 2023</td>
+                      <td>November 04, 2021</td>
+                      <td>October 28, 2022</td>
+                      <td>December 17, 2021</td>
                       <td></td>
                     </tr>
                     <tr class="type-en">
                       <th scope="row" class="type-en">Certifying<br>Organization</th>
                       <td>Korea Productivity Center Quality Assurance Co., Ltd</td>
                       <td>Korea Institute of Building Energy Technology</td>
-                      <td>Korea Institute of Sustainable Design and Educational Environement</td>
+                      <td>Korea Productivity Center Quality Assurance Co., Ltd</td>
                       <td>Korea Institute of Building Energy Technology</td>
                       <td></td>
                     </tr>
