@@ -880,6 +880,8 @@ body.block-scroll { overflow: hidden; position: fixed; width: 100%; height: 100%
 
 .tbl-list tfoot td { color: #787878; }
 
+.tbl-list tfoot td.center { text-align: center; }
+
 .tbl-list.align-right tbody td { text-align: right; }
 
 .tbl-list.align-right tbody td:last-child { padding-right: 20px; }
@@ -2576,6 +2578,14 @@ body.block-scroll { overflow: hidden; position: fixed; width: 100%; height: 100%
 .c-cr06 .cr-inbox .img-box picture + picture { margin-left: 30px; }
 
 .c-cr06 .img-wrap { margin-top: 30px; text-align: center; }
+
+.c-cr06 .unit-box { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; margin-top: 60px; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.c-cr06 .unit-box + .tbl-list { margin-top: 10px; }
+
+.c-cr06 .unit-box .sg-text-06 { margin-top: 0; }
+
+.c-cr06 .unit-box .txt { font-size: 14px; color: #787878; line-height: 23px; letter-spacing: -.7px; }
 
 .c-cr07 .sg-text-04 { margin-top: 100px; }
 
@@ -4568,6 +4578,9 @@ body.block-scroll { overflow: hidden; position: fixed; width: 100%; height: 100%
   .c-cr06 .cr-inbox .img-box { margin: 4rem 0 0; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .c-cr06 .cr-inbox .img-box picture + picture { margin: 2rem 0 0; }
   .c-cr06 .img-wrap { margin-top: 3rem; }
+  .c-cr06 .unit-box { display: block; margin-top: 6rem; }
+  .c-cr06 .unit-box + .tbl-list { margin-top: 1rem; }
+  .c-cr06 .unit-box .txt { display: block; font-size: 1.4rem; line-height: 2.3rem; letter-spacing: -.07rem; text-align: right; }
   .c-cr07 .sg-text-04 { margin-top: 10rem; }
   .c-cr07 .tab { margin-top: 12rem; }
   .c-cr07 .tab .tab-list { display: none; }
