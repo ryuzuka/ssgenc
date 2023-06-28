@@ -1104,7 +1104,6 @@
                     </tr>
                     </tbody>
                   </table>
-                  <p class="text">※ Villiv Archive Namsan and Villiv Trevice are pre-certified</p>
                 </div>
               </div>
             </dd>

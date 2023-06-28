@@ -1190,7 +1190,6 @@
                     </tr>
                     </tbody>
                   </table>
-                  <p class="text">※ 빌리브 아카이브남산, 빌리브 트레비체는 예비인증</p>
                 </div>
               </div>
             </dd>
