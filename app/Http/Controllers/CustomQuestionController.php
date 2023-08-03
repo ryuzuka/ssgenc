@@ -77,6 +77,7 @@ class CustomQuestionController extends Controller
               case '04': $menu_url = 'partner'; break;//협력회사
               case '05': $menu_url = 'general'; break;//일반문의
               case '06': $menu_url = 'leisure'; break; //레저(골프장, 아쿠아필드)
+              case '07': $menu_url = 'construction_management'; break; //공사관리(민원 등)
             }
         }
 
