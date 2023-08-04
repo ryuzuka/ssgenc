@@ -533,6 +533,11 @@
 
       init();
 
+      let $distinction = $('.js-dropdown.distinction')
+      $distinction.dropdown('clear')
+      $distinction.find('li').last().insertBefore($distinction.find('li').last().prev())
+      $distinction.dropdown()
+
       $("ul li button").on('click', function(e){
           gubun = $(this).val();
           let $summary = $('.flex-box.summary');
