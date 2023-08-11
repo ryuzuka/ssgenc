@@ -128,7 +128,7 @@
               </thead>
               <tbody>
               <tr>
-                <td>Regular Bold Co., Ltd</td>
+                <td>Taylor Stone Co., Ltd</td>
                 <td>Website development and operation</td>
               </tr>
               <tr>
