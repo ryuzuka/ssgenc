@@ -176,7 +176,7 @@ $count = 0;
                           {{ date('Y-m', strtotime($it->from)) }}
                         @else
                           {{ date('Y-m', strtotime($it->from)) }} ~
-                          @if($item->project_yn == 'Y') {{ '진행중' }} @else {{ date('Y-m', strtotime($it->to)) }} @endif
+                          @if($it->project_yn == 'Y') {{ '진행중' }} @else {{ date('Y-m', strtotime($it->to)) }} @endif
                         @endif
 
                       </span>
