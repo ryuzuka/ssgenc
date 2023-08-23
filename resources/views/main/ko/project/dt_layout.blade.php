@@ -7,7 +7,7 @@
 </head>
 
 @php
-  
+
   // dd($items);
 
 $detail_image_1 = null;
@@ -113,10 +113,10 @@ $count = 0;
               @if ($item->from == $item->to)
                 {{ date('Y-m', strtotime($item->from)) }}
               @else
-                {{ date('Y-m', strtotime($item->from)) }} ~ 
+                {{ date('Y-m', strtotime($item->from)) }} ~
                 @if($item->project_yn == 'Y') {{ '진행중' }} @else {{ date('Y-m', strtotime($item->to)) }} @endif
               @endif
-    
+
             </span>
           </div>
         </div>
@@ -158,9 +158,9 @@ $count = 0;
                               @endphp
 
                               <source media="(max-width: 1024px)" srcset="{{ $thumb_mo_image }}">
-                              
+
                               <img src="{{ $thumb_image }}" alt="{{ $it->name_ko }}">
-                              
+
                               @endif
 
                             @endforeach
@@ -176,7 +176,7 @@ $count = 0;
                           {{ date('Y-m', strtotime($it->from)) }}
                         @else
                           {{ date('Y-m', strtotime($it->from)) }} ~
-                          @if($item->project_yn == 'Y') {{ '진행중' }} @else {{ date('Y-m', strtotime($item->to)) }} @endif
+                          @if($item->project_yn == 'Y') {{ '진행중' }} @else {{ date('Y-m', strtotime($it->to)) }} @endif
                         @endif
 
                       </span>
