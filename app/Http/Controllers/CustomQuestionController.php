@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Customer;
 use App\Models\CustomQuestion;
 use App\Models\CustomReply;
 use Exception;
@@ -214,11 +215,15 @@ class CustomQuestionController extends Controller
     {
         $lang = $this->getLanguage();
 
-        $customers = (new CustomerController)->showMulti($request);
-        if ( !isset($customers) )
-        {
-            return $this->handle_error($this->default_err_code, __('auth.no_cust_info', [], $lang));
+      $customers = (new CustomerController)->showMulti($request);
+      if (!isset($customers)) {
+
+        if (Customer::sendMailPassword($request['type'], $request['email'], $lang)) {
+          return $this->handle_error($this->default_err_code, __('auth.send_mail_password', [], $lang));
         }
+
+        return $this->handle_error($this->default_err_code, __('auth.no_cust_info', [], $lang));
+      }
 
         $customer_filter = array();
         foreach($customers as $it)

@@ -32,7 +32,9 @@ return [
 
     'no_user_id' => 'user_id not entered.',
     'no_password' => 'password not entered.',
-    
+
     'no_cust_info' => 'Please contact the administrator.', //'no customers info.',
     'no_cust_quest' => 'Please contact the administrator.', //'not exist query.',
+
+    'send_mail_password' => 'The password has been sent by email.', //
 ];
